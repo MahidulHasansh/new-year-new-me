@@ -1,5 +1,5 @@
 /* browser Reset Code */
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
@@ -7,3 +7,62 @@
     list-style-type: none;
 }
 
+/* font face */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+/* font-family: 'Inter', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+
+/* for use in all button */
+.universal-btn {
+    border: none;
+    padding: 21px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* --Header-- */
+
+.header {}
+
+
+/* banner */
+.banner {
+    padding: 216px 250px;
+    text-align: right;
+    background-color: aliceblue;
+    background: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner-content {}
+
+.banner-content h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    padding-left: 750px;
+    margin-bottom: 24px;
+}
+
+.banner-content p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-left: 980px;
+    margin-bottom: 24px;
+}
+
+.banner-content button{
+    background-color: #F15B22;
+    color: #ffff;
+}
