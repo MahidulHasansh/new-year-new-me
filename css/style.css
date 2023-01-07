@@ -209,10 +209,10 @@ font-family: 'Work Sans', sans-serif; */
 
 /* -- positive-mindset -- */
 .positive-mindset {
-    background-image: url('../images/gradient2.png'),url('../images/watch.png');
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
     margin-bottom: 130px;
     background-repeat: no-repeat;
-    background-position: center center,center center;
+    background-position: center center, center center;
     margin-bottom: 130px;
     padding: 60px 64px;
 }
@@ -235,3 +235,85 @@ font-family: 'Work Sans', sans-serif; */
     color: #F15B22;
 }
 
+/* -- footer -- */
+.footer {
+    padding: 130px 230px;
+    background: #151414;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.address p {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    padding-right: 790px;
+}
+
+.contact {
+    margin: 24px 0px;
+}
+
+.contact h4 {
+    margin-bottom: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(139, 192, 253);
+}
+
+.social-links a img {
+    margin-right: 17px;
+}
+
+.subscribe h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.subscribe h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.subscribe form input::placeholder {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 12px 10px;
+    color: #F3F3F3;
+}
+
+.subscribe form input {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 12px 10px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid rgb(201, 199, 199);
+    margin-bottom: 16px;
+}
+
+.subscribe form button{
+    background-color: #ffff;
+    color: #F15B22;
+    padding: 15px 20px;
+}
