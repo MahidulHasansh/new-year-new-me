@@ -19,7 +19,7 @@ font-family: 'Work Sans', sans-serif; */
     padding: 21px 26px;
     border-radius: 5px;
     cursor: pointer;
-    font-family: 'Work Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
     font-weight: 600;
     font-size: 20px;
 }
@@ -35,7 +35,7 @@ font-family: 'Work Sans', sans-serif; */
     padding: 216px 250px;
     text-align: right;
     background-color: aliceblue;
-    background: url('../images/banner/banner2.png');
+    background: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -62,7 +62,61 @@ font-family: 'Work Sans', sans-serif; */
     margin-bottom: 24px;
 }
 
-.banner-content button{
+.banner-content button {
     background-color: #F15B22;
     color: #ffff;
+}
+
+/* --main-- */
+.main-content {
+    width: 1165px;
+    /* background-color: rgba(102, 51, 153, 0.205); */
+    margin: 0px auto;
+}
+
+
+/* -- my failure -- */
+.my-failure {
+    padding: 130px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.failure-text{
+    margin-left: 283px;
+}
+
+.failure-text h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failure-text p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failure-text ul {
+    margin-left: 10px;
+}
+
+.failure-text ul li {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #444343;
+
+}
+
+.failure-text ul li img{
+    width: 16px;
+    height: 16px;
 }
