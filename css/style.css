@@ -70,7 +70,6 @@ font-family: 'Work Sans', sans-serif; */
 /* --main-- */
 .main-content {
     width: 1165px;
-    /* background-color: rgba(102, 51, 153, 0.205); */
     margin: 0px auto;
 }
 
@@ -82,7 +81,7 @@ font-family: 'Work Sans', sans-serif; */
     align-items: center;
 }
 
-.failure-text{
+.failure-text {
     margin-left: 283px;
 }
 
@@ -116,7 +115,53 @@ font-family: 'Work Sans', sans-serif; */
 
 }
 
-.failure-text ul li img{
+.failure-text ul li img {
     width: 16px;
     height: 16px;
+}
+
+/* -- my plan -- */
+.my-plan {
+    margin-bottom: 130px;
+}
+
+.plan-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.plan-title h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+
+}
+
+.plan-cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plan-cards>.card img{
+    margin-bottom: 24px;
+}
+
+.plan-cards>.card h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.plan-cards>.card p {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #737272;
+
 }
